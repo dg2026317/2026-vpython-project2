@@ -1,7 +1,9 @@
 Web VPython 3.2
 #r = cylinder(axis = vec(0,0,1), texture = "https://www.shutterstock.com/image-vector/roulette-wheel-casino-vector-clipart-260nw-2800032543.jpg&quot;)
-r = cylinder(axis = vec(0,0,1), texture = "https://i.postimg.cc/TPyq3k1c/13315.jpg&quot;)
-arrow(pos=vec(0, 1.6, 1.07), axis=vec(0, -1, 0), color=color.red)
+r = cylinder(axis = vec(0,0,1), texture = "https://www.shutterstock.com/image-vector/roulette-wheel-casino-vector-clipart-260nw-2800032543.jpg&quot;)
+t = arrow(pos=vec(0, 1.45, 1.07), axis=vec(0, -1, 0), color=color.red)
+y = box(pos=vec(0,-0.8,-0.15), size=vec(1,2,0.3), color=vec(0,102/255,0))
+u = box(pos=vec(0,-1.8,0), size=vec(2,0.3,1), color=vec(0,102/255,0))
 
 while True :
     rate(40)
