@@ -12,3 +12,5 @@ while True :
     k = keysdown()
     if ' ' in k :
          r.rotate(angle=1)
+    if scene.mouse.pick == i :
+        r.rotate(angle=1)
