@@ -6,7 +6,12 @@ ring(pos=vec(0, 0, 0.96), axis=vec(0, 0, 1), radius = 1.025, color=vec(51/255, 2
 y = box(pos=vec(0,0,0.2), size=vec(4,3,1.5), color=vec(153/255, 76/255, 0))
 u = cylinder(axis = vec(0,0,1), radius = 0.3, pos = vec(1.41,-0.9,0), color=color.black)
 i = cylinder(axis = vec(0,0,1), radius = 0.2, pos = vec(1.41,-0.9,0.05), color=color.red)
-
+box(pos=vec(0,0.7,0.31), size=vec(4,2,1.27), color=vec(51/255, 25/255, 0))
+box(pos=vec(0,-0.7,0.31), size=vec(4,2,1.27), color=vec(51/255, 25/255, 0))
+box(pos=vec(0.25,0.7,0.31), size=vec(4,2,1.27), color=vec(51/255, 25/255, 0))
+box(pos=vec(0.25,-0.7,0.31), size=vec(4,2,1.27), color=vec(51/255, 25/255, 0))
+box(pos=vec(-0.25,0.7,0.31), size=vec(4,2,1.27), color=vec(51/255, 25/255, 0))
+box(pos=vec(-0.25,-0.7,0.31), size=vec(4,2,1.27), color=vec(51/255, 25/255, 0))
 while True :
     rate(30)
     k = keysdown()
